@@ -55,3 +55,5 @@ console.log('transform pipe',transform_pipe(input));
 const transform_pipe_curring = pipe(trim,toLowerCase,wrap("span"));
 
 console.log('transform pipe with curring',transform_pipe_curring(input));
+
+

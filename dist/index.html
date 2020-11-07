@@ -3,14 +3,122 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redux Starter Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 
+
+
 <body>
-  <div id="app">
-    Hello World
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .signs {
+      font-family: 华文楷体;
+      font-size: 57px;
+      text-align: center;
+      color: white;
+      background: #8a1656;
+
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      z-index: 3;
+    }
+    .signs-small{
+      font-family: 华文楷体;
+    font-size: 57px;
+    text-align: center;
+    color: white;
+    background: #8a1656;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    .container {
+      width: 1200px;
+      margin: auto;
+      position: relative;
+    }
+
+    .markup1 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .english-sign {
+      font-size: 38px;
+      word-spacing: 5px;
+      font-family: 'Inter-Loom';
+      line-height: 1.1;
+      margin-top: -10px;
+    }
+
+    img {
+      max-width: 179px;
+      position: relative;
+      left: 25px;
+    }
+
+    .container-short {
+      width: 800px;
+
+    }
+    .signs-small img{
+      max-width: 170px;
+      position: relative;
+      left: unset;
+    }
+  </style>
+  <div class="container">
+     <div class="markup1">
+       
+     </div>
+    <div class="signs">
+      <img src="/logo.png">
+      <div class="" style="
+    position: relative;
+    left: 25px;">
+        <div class="chinese-sign">
+          上海丽扬洋服 私人定制 量体裁剪
+        </div>
+
+        <div class="english-sign">
+          Shanghai LeeYonge Tailor Store
+        </div>
+      </div>
+    </div>
   </div>
+
+  <!-- <div class="container container-short">
+    <div class="signs-small">
+      <img src="/logo.png">
+      <div class="">
+        <div class="chinese-sign">
+          上海丽扬洋服 私人定制
+        </div>
+
+        <div class="english-sign">
+          Shanghai LeeYonge Tailor Store
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div> -->
+
+
+
   <script src="app.js"></script>
 </body>
 
